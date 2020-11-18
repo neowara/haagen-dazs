@@ -1,0 +1,43 @@
+@import "../../assets/scss/base";
+.item {
+    display:flex;
+    flex-direction:column;
+    margin-top:2em;
+    .card {
+        background: #fff;
+        border-radius: 4px;
+        border: 0.1em solid #EAD6E7;
+        padding: 1em;
+        margin: 1em 0;
+        box-shadow: 0px 0px 5px rgb(0,0,0,0.3);
+        .date {
+            font-size: $small-font-size;
+            color: $purple;
+        }
+    }
+    h2 {
+        color: $orange;
+    }
+}
+
+@media screen and (min-width: $mobile) {
+    .item {
+        margin-top: 2em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .card {
+            flex-basis:calc(50% - 4.4em);
+            margin: 1em 1em;
+            
+        }
+    }
+}
+
+@media screen and (min-width:$small) {
+    .item {
+        .card {
+            flex-basis: calc(33.3% - 4.4em);
+        }
+    }
+    
+}

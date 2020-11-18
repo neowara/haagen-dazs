@@ -1,4 +1,5 @@
 # haagen-dazs
+Small project using Vue 2.6 and TypeScript. Used Element, a Vue 2.0 based component library, to create a few elements
 
 ## Project setup
 ```
@@ -13,11 +14,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
 ```
 
 ### Lints and fixes files
