@@ -1,6 +1,8 @@
 # haagen-dazs
 Small project using Vue 2.6 and TypeScript. Used Element, a Vue 2.0 based component library, to create a few elements
 
+Element documentation can be found [here](https://element.eleme.io/#/en-US).
+
 ## Project setup
 ```
 npm install
